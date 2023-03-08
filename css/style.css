@@ -1,0 +1,114 @@
+body {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    background-color: #000000;
+    color: rgb(255,255,255);
+}
+
+header {
+    /*border: 3px solid red;*/
+    padding-bottom: 0px;
+}
+
+
+/*where div class="images" is*/
+.images { 
+    /*border: 3px solid green;*/
+    height: 0px;
+    width: 120px;
+    float: right;
+    margin-right: 860px;
+    margin-top: 0px;
+}
+
+#hero-image {
+    scale: 1.25;
+    width: 100%;
+    margin-top: 0px;
+    /*border: 1px solid blue;*/
+}
+
+.images a {
+    padding: 0px;
+    border: 1px solid black;
+    margin: 0px;
+}
+
+h1 {
+    /*border: 3px solid plum;*/
+    padding-top: 20px;
+    margin-left: 0px;
+    font-size: 400%;
+    margin-bottom: 35px;
+}
+
+h2 {
+    border-top: solid 3px hsl(44,98%,50%);
+    padding-top: 20px;  
+}
+
+nav {
+    /*border: 3px solid paleturquoise;*/
+    margin-bottom: 0px;
+    padding: 0px;
+    
+}
+
+#nav-list{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /*border: 3px solid yellow;*/
+    padding: 0px;
+}
+
+#nav-list li {
+    border: 3px solid black;
+    display: inline-block;
+    background-color: #a44322;
+    margin-right: 35px;
+    margin-bottom: 0;
+}
+
+a {
+    border: 1px solid rgb(255,255,255);
+    color: rgb(255,255,255);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+/*.images {
+    border: 3px solid green;
+}*/
+
+p {
+    /*border: 3px solid rgb(255,255,255);*/
+    padding: 15px;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.video-container {
+    /*border: 3px solid blue;*/
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+/*.youtube-videos {
+    border: 3px solid red;
+}*/
+
+#learn-more li {
+    margin-bottom: 20px;
+    background-color: #a44322;
+    width: 140px
+}
+
+
+
