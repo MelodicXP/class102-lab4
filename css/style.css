@@ -56,9 +56,9 @@ nav {
 }
 
 #nav-list{
+    /*border: 3px solid yellow;*/
     margin-bottom: 0px;
     margin-top: 0px;
-    /*border: 3px solid yellow;*/
     padding: 0px;
 }
 
