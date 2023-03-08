@@ -17,8 +17,9 @@ header {
     height: 0px;
     width: 120px;
     float: right;
-    margin-right: 860px;
+    margin-left: 350px;
     margin-top: 0px;
+    position: absolute;
 }
 
 #hero-image {
