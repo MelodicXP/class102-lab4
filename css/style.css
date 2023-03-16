@@ -116,8 +116,12 @@ p {
 }
 
 button {
-    width: 310px;
+    width: 220px;
     margin-bottom: 20px;
+    background-color: #a44322;
+    color: rgb(255,255,255);
+    padding: 10px;
+    font-weight: 550;
 }
 
 

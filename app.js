@@ -17,13 +17,13 @@ if (interestBlackHoles == answerOne){
 }
 
 function changeBackgroundColor() {
-    let text = "Press Ok to change background color! Or press cancel.";
+    let text = "Press Ok to suck away the background color! Or press cancel to save it!";
     let color = "#000000";
     if (confirm(text) == true) {
-        text = "Black color has been sucked away!";
+        text = "Background color has been sucked away!";
         color = "#770000";   
     } else {
-        text = "You have chosen to stay with black!";
+        text = "You have chosen to save the background color!";
         color ="#000000";
     }
     document.getElementById("decision-of-colors").innerHTML = text;
