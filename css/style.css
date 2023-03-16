@@ -111,5 +111,14 @@ p {
     width: 140px
 }
 
+#decision-of-colors {
+    margin: 0;
+}
+
+button {
+    width: 310px;
+    margin-bottom: 20px;
+}
+
 
 
