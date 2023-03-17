@@ -1,19 +1,17 @@
-let answerOne = 'y';
-let answerTwo = 'n';
-let theirName = "";
+function userInterest () {
+  let interestBlackHoles = prompt("Hello space traveler! Are you interested in the awesomeness of black holes? (type 'y' for yes or 'n' for no)");
+  if (interestBlackHoles == 'y'){
+    let theirName = prompt("What's your name traveler!");
+      if (theirName == "") {
+        theirName = prompt("You did not enter your name traveler! Please enter your name");
+      } 
+    document.write ("Welcome " + theirName + "! Below is some information for you to explore the wonders of black holes!");   
+  } else if (interestBlackHoles == 'n') {
+    alert("Sorry to hear that! Feel free to check out this website for info on black holes. You may find it interesting!");
 
-let interestBlackHoles = prompt("Hello space traveler! Are you interested in the awesomeness of black holes? (type 'y' for yes or 'n' for no)");
-
-if (interestBlackHoles == answerOne){
-
-  theirName = prompt("What's your name traveler!");
-  document.write ("Welcome " + theirName + "! Below is some information for you to explore the wonders of black holes!");
-
-} else if (interestBlackHoles == answerTwo) {
-  alert("Sorry to hear that! Feel free to check out this website for info on black holes. You may find it interesting!");
-
-} else {
-  alert("Please enter a valid response ('y' for yes or 'n' for no");
+  } else {
+    alert("Please enter a valid response ('y' for yes or 'n' for no");
+  }
 }
 
 function changeBackgroundColor() {
@@ -27,7 +25,6 @@ function changeBackgroundColor() {
         color ="#000000";
     }
     document.getElementById("decision-of-colors").innerHTML = text;
-    document.body.style.background = color;
-    
+    document.body.style.background = color;  
  }
 
