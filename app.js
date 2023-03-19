@@ -19,7 +19,7 @@
 function userInterest () { 
  let interestBlackHoles = prompt("Hello space traveler! Are you interested in the awesomeness of black holes? (type 'y' for yes or 'n' for no)");
    while (interestBlackHoles != 'y' && interestBlackHoles != 'n') { //the '&&' means both conditions must evaluate to 'true' to continue
-    prompt("Please enter a valid response! Press 'y' for yes or 'n' for no"); 
+    interestBlackHoles = prompt("Please enter a valid response! Press 'y' for yes or 'n' for no"); 
    }
    
    if (interestBlackHoles == 'y') {
@@ -56,7 +56,7 @@ function changeBackgroundColor() {
 
   for (let i = 0; i < text; i++){
       document.getElementById('stars').innerHTML += //finally got image to appear in html and repeat (by using '+=' symbol)
-      " <img src = 'https://images.unsplash.com/photo-1542665174-31db64d7e0e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHN0YXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' alt = 'picture of star looking like black hole'>";   
+      " <img src = 'https://images.unsplash.com/photo-1542665174-31db64d7e0e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHN0YXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' alt = 'picture of star looking like black hole'>";
     }    
 }
  
